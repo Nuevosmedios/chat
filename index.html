@@ -46,7 +46,7 @@
       $(document).ready(function() {
       Candy.init('/http-bind/', {
       core: { debug: true,
-      autojoin: ['workgroup-demo@conference.zenbook']
+      autojoin: [getPageParameter('r', 'test') + '@conference.chats.nuevosmedios.ws']
       },
       view: { resources: 'res/',
       language: 'es'}
